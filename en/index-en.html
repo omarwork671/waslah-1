@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="waslah is a social-media website allows you contact with others without using mobile number">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/icons/logoen-en-2.png">
+    <title>waslah | main page</title>
+
+    <!-- style -->
+    <style>
+        section.features .media {
+            text-align: left;
+        }
+
+        .media .media-body h5 {
+            border-left: 2px solid #bd7531;
+            border-right: 0 !important;
+
+        }
+
+        section.features .feature:nth-of-type(even) .media .media-body h5 {
+            border-right: 2px solid #bd7531 !important;
+            text-align: right;
+            border-left: 0;
+        }
+
+        section.features .feature:nth-of-type(even) .media .media-body p {
+            text-align: right;
+        }
+
+        section.features .title::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 150px;
+            height: 2px;
+            background-color: #cf8540;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .col-md-3 {
+            background: #ff9b00;
+            padding: 4%;
+            border-radius: 0.5rem 0 0 0.5rem;
+        }
+
+        .col-md-9 {
+            background: #fff;
+            padding: 3%;
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+
+        .form-group {
+            text-align: left;
+        }
+
+        .button-edit {
+            text-align: right;
+        }
+
+        footer p {
+            text-align: left;
+            color: black;
+            line-height: 50px;
+
+
+        }
+
+        /* footer-botton */
+
+        .button-left {
+            direction: rtl;
+        }
+    </style>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+
+    <header>
+
+        <div class="container">
+
+            <!-- navbar -->
+            <nav class="navbar navbar-expand navbar-light ">
+
+                <a class="navbar-brand" href="#">
+                    <img src="../images/icons/logoen-en-2.png" class="d-inline-block align-top" alt="logo waslah">
+
+                </a>
+
+                <div class=" navbar-collapse" dir="rtl">
+                    <ul class="navbar-nav">
+
+                        <div class="dropdown ml-lg-4 ">
+
+                            <a class="btn btn-secondary dropdown-toggle dropdown-edit" href="#" role="button"
+                                id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="../images/icons/united-states.png" width="30" height="30" alt="en">
+                            </a>
+
+                            <div class="dropdown-menu dropdown-list-edit" style="min-width: 10px; left: -10px;"
+                                aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="../index.html"><img src="../images/icons/saudi-arabia.png"
+                                        width="25" height="25" alt="English"> ar
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <li class="">
+                            <a class="nav-link go-slowly" href="#contact-us">contact us</a>
+                        </li>
+
+                        <li class="active">
+                            <a class="nav-link go-slowly" href="#features">features <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+            </nav>
+            <!-- end of the navbar -->
+
+            <div class="page-content">
+                <div class="brand-center">
+                    <img src="../images/icons/logoen-en-2.png" alt="">
+                </div>
+                <p>keep in touch with others</p>
+                <div class="btn-group1 mt-2">
+                    <button onclick="location.href='sign-in-en.html';" class="btn">sign in </button>
+                    <button onclick="location.href='register-en.html';" class="btn">register</button>
+                </div>
+            </div>
+
+        </div>
+
+
+    </header>
+
+
+    <!--features-->
+    <section class="features" id="features" dir="ltr">
+        <div class="title text-center">
+            <h3>site Features</h3>
+        </div>
+        <!--الفقرات-->
+        <div class="container">
+
+            <!--feature-->
+            <div class="feature">
+                <div class="media">
+                    <div class="media-body">
+                        <h5 class="media-heading reduce-padding1">you don't have to use SM card</h5>
+                        <p>you can use waslah without using SM card and contact other site users</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--feature-->
+            <div class="feature">
+                <div class="media">
+                    <div class="media-body">
+                        <h5 class="media-heading reduce-padding1">usage flexibility</h5>
+                        <p>waslah is responsive with all devices and almost all browsers</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--feature-->
+            <div class="feature">
+                <div class="media">
+                    <div class="media-body">
+                        <h5 class="media-heading reduce-padding1">Lorem, ipsum dolor.</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, distinctio? </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+    <!--end of the features-->
+
+
+    <!-- contact -->
+    <div class="container-fluid contact " id="contact-us">
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <div class="contact-info">
+                    <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image" />
+                    <h2>contact us</h2>
+                    <h5 class="d-sm-none d-md-block">keep in touch !</h5>
+                </div>
+            </div>
+
+            <div class="col-md-9 col-sm-12">
+                <div class="contact-form ltr">
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-2 " for="fname">Name: </label>
+                        <div class="col-md-10 col-sm-12">
+                            <input type="text" class="form-control" id="fname" placeholder="type your name"
+                                name="fname">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">email:</label>
+                        <div class="col-md-10 col-sm-12">
+                            <input type="email" class="form-control" id="email" placeholder="your email " name="email">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="comment">Your message</label>
+                        <div class="col-md-10 col-sm-12">
+                            <textarea class="form-control" placeholder="type your message " rows="5"
+                                id="message"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group button-edit ">
+                        <div class="col-sm-offset-2 col-md-10 col-sm-12">
+                            <button type="submit" class="btn btn-default">send</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of contact us section -->
+
+    <hr>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md col-sm-12 ">
+                    <p>All rights reserved to Waslah website &copy;</p>
+                </div>
+
+                <div class="col-md col-sm-12 button-left">
+
+                    <div class="share-button">
+                        <span>Follow us</span>
+                        <a href="https://www.facebook.com/yasinmohamed.ismail.58" data-target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0d578b58f5.js" crossorigin="anonymous"></script>
+    <script src="../js/messages_ar.min.js"></script>
+    <script src="../js/js.js"></script>
+
+</body>
+
+</html>
